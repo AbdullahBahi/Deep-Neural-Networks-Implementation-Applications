@@ -36,7 +36,7 @@ We built a simple **image-recognition algorithm** that can correctly classify pi
   
 ### 2. Planar data classification with one hidden layer
 **Problem Statement:**  
-We have some data  that looks like a [flower]() when plotted as a scatter plot, with some red (label y=0) and some blue (y=1) points. our goal is to build a model to fit this data. In other words, we want the classifier to define regions as either red or blue.  
+We have some data  that looks like a [flower](https://github.com/AbdullahBahi/Deep-Neural-Networks-Implementation-Applications/blob/master/2-%20Planar_data_classification_with_onehidden_layer/images/flower.PNG) when plotted as a scatter plot, with some red (label y=0) and some blue (y=1) points. our goal is to build a model to fit this data. In other words, we want the classifier to define regions as either red or blue.  
   
 **Objectives:**  
 - Implement a 2-class classification neural network with a single hidden layer
@@ -54,7 +54,7 @@ To build the neural network, we implemented several "helper functions". These he
   - Combine the previous two steps into a new [LINEAR->ACTIVATION] forward function.
   - Stack the [LINEAR->RELU] forward function L-1 time (for layers 1 through L-1) and add a [LINEAR->SIGMOID] at the end (for the final layer  L ). This gives you a new L_model_forward function.
 - Compute the loss.
-- Implement the backward propagation module (denoted in red in this [figure]()).
+- Implement the backward propagation module (denoted in red in this [figure](https://github.com/AbdullahBahi/Deep-Neural-Networks-Implementation-Applications/blob/master/3-%20Building_Deep_Neural_Network_Step_by_Step/images/final%20outline.png)).
   - Complete the LINEAR part of a layer's backward propagation step.
   - We give you the gradient of the ACTIVATE function (relu_backward/sigmoid_backward)
   - Combine the previous two steps into a new [LINEAR->ACTIVATION] backward function.
